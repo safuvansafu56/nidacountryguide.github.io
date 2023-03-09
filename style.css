@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #ca1974;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/00/56/65/29/1000_F_56652972_jsgG1EGeSd9GQLTWqUi1CzURbYtYlDNL.jpg);
+    /* background-image: url(https://img.freepik.com/free-vector/world-map-with-global-technology-social-connection-network-with-nodes-links-vector-illustration_1284-1968.jpg?w=1060&t=st=1678371212~exp=1678371812~hmac=50dc0665128b6b9b8def75f286e9daa83e2587593623a422494cd546da00601c);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    
+    
+}
+
+.container{
+    background-color: #ffffff;
+    width: 80vw;
+    max-width: 37.5em;
+    padding: 3em 2.5em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.62em;
+    box-shadow: 0 2.25em 2.8em rgba(8, 21, 65, 0.25);
+}
+
+
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+
+}
+
+.search-wrapper button{
+    font-size: 1em;
+    background-color: #7F167F ;
+    color: #ffffff;
+    padding: 0.8em 0;
+    border: none;
+    border-radius: 1.5em;
+}
+
+.search-wrapper button:hover{
+    background-color: #460C68;
+
+}
+
+.search-wrapper input{
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid #460C68;
+    outline: none;
+    color: #222a43;
+
+}
+
+#result {
+    margin-top: 1.25em;
+
+}
+
+.container .flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+
+}
+
+.container .flag-img:hover{
+    box-shadow: 0 2.25em 4.8em rgba(8, 21, 65, 0.25);
+}
+
+.container h2{
+    font-family: 'Tilt Warp', cursive;
+    font-weight: 600;
+    color: #1f2b4d;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+}
+.container h2:hover{
+    color: #7F167F;
+}
+
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h4{
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+
+}
+
+.container span{
+    color: #5d6274;
+
+}
+
+.container h3{
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 200;
+    color: #5d6274;
+}
+.container .effects{
+    text-shadow: #2E3840 1px 0 30px;
+}
+
+.container .effects:hover{
+    color: #460C68;
+}
+
